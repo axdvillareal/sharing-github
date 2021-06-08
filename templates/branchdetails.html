@@ -1,0 +1,9 @@
+{% include "header.html" %}
+        <h1>Branch Details</h1>
+        <table>
+           <!---<tr><td>Code</td><td>{{ code }}</td></tr>--->
+            <tr><td>Branch Name</td><td>&emsp;{{ branch["name"] }}</td></tr>
+            <tr><td>Phone Number</td><td>&emsp;{{ branch["phonenumber"] }}</td></tr>
+        </table>
+        <a href="/branches">Back</a>
+{% include "footer.html" %}
